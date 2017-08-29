@@ -9,27 +9,34 @@ body {
 
 .header {
   display: flex;
+  justify-content: center;
   position: fixed;
+  flex-wrap: wrap;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
   z-index: 5;
-  justify-content: space-between;
   align-items: center;
 }
 
-.header span {
-  display: flex;
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 }
 
-.header nav {
-  display: inline-flex;
+nav {
+  text-align: right;
 }
 
 .header img {
   height: 50px;
   border: 1px solid blue;
-  margin-left: 10px;
+  padding-left: 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
 }
 
 .content {
