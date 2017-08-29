@@ -58,11 +58,18 @@ img {
   width: 1200px;
 }
 
+.locboxes {
+  display: inline-flex;
+  margin: 15px 90px;
+  border: 1px solid black;
+}
+
 .locbox {
   background-color: black;
   opacity: 1;
   height: 300px;
   width: 300px;
+  margin: 0px 20px;
 }
 
 footer {
