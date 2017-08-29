@@ -5,4 +5,39 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+  align-items: center;
+  background-color: black;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  width: 1200px;
 }
