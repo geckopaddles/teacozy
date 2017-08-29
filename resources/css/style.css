@@ -42,8 +42,18 @@ img {
   width: 1200px;
 }
 
+.missiontext {
+  background-color: black;
+}
+
 #featured {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.featurebox {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #locations {
@@ -51,6 +61,9 @@ img {
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #contact {
@@ -70,6 +83,10 @@ img {
   height: 300px;
   width: 300px;
   margin: 0px 20px;
+}
+
+.content h2 {
+  border: 1px solid blue;
 }
 
 footer {
