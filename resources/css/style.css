@@ -9,9 +9,8 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   position: fixed;
-  flex-wrap: wrap;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
