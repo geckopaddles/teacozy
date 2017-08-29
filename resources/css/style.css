@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  display: block;
 }
 
 .header {
@@ -16,6 +17,7 @@ body {
   border-bottom: 1px solid seashell;
   z-index: 5;
   align-items: center;
+  background-color: black;
 }
 
 nav span {
@@ -29,7 +31,6 @@ nav {
 
 .header img {
   height: 50px;
-  border: 1px solid blue;
   padding-left: 10px;
 }
 
@@ -41,6 +42,10 @@ a {
 .content {
   display: block;
   width: 1200px;
+}
+
+.section {
+  align-items: center;
 }
 
 .section img {
