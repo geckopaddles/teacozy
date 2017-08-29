@@ -26,12 +26,18 @@ body {
   display: inline-flex;
 }
 
+.header img {
+  height: 50px;
+  border: 1px solid blue;
+  margin-left: 10px;
+}
+
 .content {
   display: block;
   width: 1200px;
 }
 
-img {
+.section img {
   height: 200px;
   width: 300px;
 }
@@ -49,11 +55,15 @@ img {
 #featured {
   display: flex;
   flex-wrap: wrap;
+  width: 1000px;
+  justify-content: space-around;
+  align-content: center;
 }
 
 .featurebox {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #locations {
