@@ -37,7 +37,15 @@ a {
   text-decoration: underline;
 }
 
-.flex-container {
+.container {
   display: flex;
   width: 1200px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+#mission {
+  margin-top: 69px;
 }
