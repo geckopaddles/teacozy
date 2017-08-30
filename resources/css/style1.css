@@ -95,7 +95,7 @@ h4 {
 
 .loctext h2 {
   display: block;
-  margin-top: 0px;
+  margin: 0px;
 }
 
 .locbox {
@@ -104,7 +104,7 @@ h4 {
   opacity: 1;
   height: 300px;
   width: 300px;
-  margin: 0px 20px;
+  margin: 15px 20px;
 }
 
 #contact {
