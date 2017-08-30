@@ -40,6 +40,7 @@ a {
 }
 
 .container {
+  padding-top: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,7 +63,6 @@ a {
 }
 
 #mission {
-  margin-top: 69px;
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
 }
