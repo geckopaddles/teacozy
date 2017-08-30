@@ -46,7 +46,6 @@ a {
   justify-content: center;
   background-color: black;
   align-content: center;
-  border: 1px solid blue;
 }
 
 .partial {
@@ -73,7 +72,6 @@ a {
 }
 
 #featured img {
-  /*width: 300px;*/
   height: 200px;
   margin: 0 25px;
 }
@@ -115,7 +113,6 @@ h4 {
 footer {
   display: flex;
   width: 100%;
-  border: 1px solid blue;
   padding-left: 20px;
   text-align: left;
 }
