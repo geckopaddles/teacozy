@@ -43,6 +43,7 @@ a {
   align-items: center;
   justify-content: center;
   background-color: black;
+  align-content: center;
 }
 
 .column {
@@ -78,6 +79,24 @@ h4 {
 .box {
   display: inline-flex;
   justify-content: center;
+}
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+}
+
+.loctext {
+  display: block;
+}
+
+.locbox {
+  display: flex;
+  background-color: black;
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+  margin: 0px 20px;
 }
 
 
