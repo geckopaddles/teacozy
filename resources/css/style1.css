@@ -6,6 +6,8 @@ body {
   opacity: 0.9;
   text-align: center;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 header {
@@ -44,6 +46,7 @@ a {
   justify-content: center;
   background-color: black;
   align-content: center;
+  border: 1px solid blue;
 }
 
 .column {
@@ -104,19 +107,9 @@ h4 {
 }
 
 footer {
-  text-align: left;
-  margin-left: 20px;
   display: flex;
-}
-
-
-
-/*h2 {
+  width: 100%;
   border: 1px solid blue;
-  margin: auto;
+  padding-left: 20px;
+  text-align: left;
 }
-
-h4 {
-  border: 1px solid blue;
-  margin: auto;
-}*/
