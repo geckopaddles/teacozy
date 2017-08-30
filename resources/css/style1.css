@@ -73,7 +73,7 @@ a {
 }
 
 #featured img {
-  width: 300px;
+  /*width: 300px;*/
   height: 200px;
   margin: 0 25px;
 }
@@ -83,7 +83,8 @@ h4 {
 }
 
 .box {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
 }
