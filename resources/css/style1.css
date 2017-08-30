@@ -40,7 +40,6 @@ a {
 }
 
 .container {
-  padding-top: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,6 +49,10 @@ a {
 
 .partial {
   width: 1200px;
+}
+
+.navpad {
+  padding-top: 70px;
 }
 
 .column {
@@ -81,10 +84,17 @@ h4 {
 }
 
 .box {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inline {
+  display: inline-flex;
 }
 
 #locations {
@@ -95,6 +105,7 @@ h4 {
 .loctext h2 {
   display: block;
   margin: 0px;
+  padding: 0px;
 }
 
 .locbox {
