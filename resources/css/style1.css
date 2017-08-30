@@ -93,8 +93,9 @@ h4 {
   height: 500px;
 }
 
-.loctext {
+.loctext h2 {
   display: block;
+  margin-top: 0px;
 }
 
 .locbox {
